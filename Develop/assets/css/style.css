@@ -1,0 +1,168 @@
+/* Tells all emelements to fill up space */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* HTML backgroud color */
+body {
+  background-color: #d9dcd6;
+}
+
+/* HEADER SECTION */
+/* Styles the padding, color around header, font and text color */
+/*  */
+header {
+  padding: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: #2a607c;
+  color: #ffffff;
+}
+
+/* Styles font size and display type inline block */
+h1 {
+  display: inline-block;
+  font-size: 48px;
+}
+
+/* Styles color to element with ID "seo" */
+#seo {
+  color: #d9dcd6;
+}
+
+/* Styles padding, margine, position and fonts */
+nav {
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  display: inline-block;
+}
+
+/* Styles list items */
+ul {
+  list-style-type: none;
+}
+
+/* Style list items display to inline and 25px space inbetween */
+li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+/* Styles the link text in anchor tag*/
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* BANNER STYLING */
+
+/* Style Banner image size, margine, background image and position */
+figure {
+  height: 800px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url("../images/digital-marketing-meeting.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+/* BODY STYLING */
+
+/* Styles elements in main section size, display type and margin  */
+main {
+  width: 75%;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+/* Styles element with class "main-style" font, margine, size, padding and color */
+.main-style {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+
+/* Styles element with class "main-image" size */
+.main-image {
+  max-height: 200px;
+}
+
+/*Styles h2 elements in main margin and font size */
+main h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+/* Styles any p tags font size */
+p {
+  font-size: 16px;
+}
+
+/* styles element with class "float-left" to float left and right margin */
+.float-left {
+  float: left;
+  margin-right: 25px;
+}
+
+/* styles element with class "float-right" to float right and left margin */
+.float-right {
+  float: right;
+  margin-left: 25px;
+}
+
+/* Styles aside section */
+aside {
+  margin-right: 20px;
+  padding: 20px;
+  clear: both;
+  float: right;
+  width: 20%;
+  height: 100%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #2589bd;
+}
+
+/* Styles element with class "aside-style" color and margin */
+.aside-style {
+  margin-bottom: 32px;
+  color: #ffffff;
+}
+
+/* Styles h3 tags */
+h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* Styles element with class "aside-image" display style, margine and size */
+.aside-image {
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
+}
+
+/* FOOTER STYLING */
+
+/* Styles element with class "footer" padding, font, text position */
+.footer {
+  padding: 30px;
+  clear: both;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+}
+
+/*Styles h4 elements with footer class font size */
+.footer h4 {
+  font-size: 20px;
+}
